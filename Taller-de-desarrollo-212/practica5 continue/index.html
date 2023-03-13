@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="nombre">Nombre</label>
+        <input type="text"requiered name="nombre" id="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text"requiered name="apellido" id="apellido">
+
+        <input type="sub"   value="Enviar"> 
+
+    </form>
+
+    <hr>
+    <form action="">
+        <fieldset>
+            <label for="nombre2">Nombre</label>
+            <input type="text" requiered name="nombre2" id="nombre2"
+            placeholder="ingresa tu nombre">
+
+            <label for="correo">Correo</label>
+            <input type="text" required correo="correo" id="correo"> 
+
+            <label for="edad">Edad</label>
+            <input type="number" step="any" required edad="edad" id="edad">
+
+            <br><br><br>
+            <label for="lenguaje">Lenguaje</label>
+            <input type="radio" name="lenguaje" id="js">Javascript
+            <input type="radio" name="lenguaje" id="python">python
+            <input type="radio" name="lenguaje" id="c">C
+            <br><br><br>
+            <label for="paises">Países que he visitado</label>
+            <input type="checkbox" name="EU" id="EU">Estados Unidoss
+            <input type="checkbox" name="CA" id="CA">Canadá
+            <input type="checkbox" name="JA" id="JA">Japón
+            <input type="checkbox" name="CO" id="CO">Colombia
+            <br><br><br>
+            <label for="mensaje">Mensaje o comentario</label>
+             <textarea name="mensaje" id="mensaje" cols="30" rows="3">
+             </textarea>
+             <br><br><br>
+
+             <select name="Países" id="Países"></select>
+             <option value="1">EU</option>
+             <option value="2">CA</option>
+             <option value="3">JA</option>
+             <option value="4">CO</option>
+             <option value="5">KO</option>
+
+             <form name="Formulario 1">
+                <label for="usuario">Usuario</label>
+                <input required type="text" name="usuario">
+                <label for="password">Password</label>
+                <input required type="password" name="password"> 
+                <input type="submit" name="Enviar">
+                
+            </form>
+
+            <form name=" forma 1">
+                <label for="color">Selecciona un color</label>
+                <input type="color" name="color">
+                <label for="Nac">Fecha:</label>
+                <input type="date" name="Nac">
+                <p>
+                <label for="entrada">Entrada:</label>
+                <input type="datetime-local" name="entrada">
+            </p>
+
+            <p>
+                <label for="archivo">Ingresa una fotografía</label>
+                <input type="file" name="archivo" id="archivo">
+
+            </p>
+
+            <p>
+                <label for="edad">Ingresa tu edad</label>
+                <input type="number" name="edad" id="edad" placeholder="10">
+
+            </p>
+
+            <p>
+                <label for="volumen">Volumen entre 0 y 100</label>
+                <input type="range" name="volumen" id="volumen" min="0" max="100">
+
+            </p>
+
+            <p>
+                <label for="hora">Hora</label>
+                <input type="time" name="hora" id="hora">
+
+            </p>
+
+            <p>
+                <label for="semana">Semana</label>
+                <input type="week" name="semana" id="semana">
+
+            </p>
+
+            <p>
+            <label for="celular">Celular</label>
+            <input type="tel" name="celular" id="celular" 
+            placeholder="Ingresa un número de celular"
+            pattern="(0-9){3} (0-9){3}-(0-9){4}"
+            >
+            </p>
+
+            </form>
+
+            <input type="submit"   value="Enviar"> 
+
+
+        </fieldset>
+
+
+
+    </form>
+    
+</body>
+</html>

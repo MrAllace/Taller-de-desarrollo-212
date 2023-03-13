@@ -1,0 +1,41 @@
+p{
+
+    color: blueviolet;
+    text-align: center;
+
+}
+
+#para1{
+    font-size: 40px;
+
+}
+
+.seleccionado{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+h1,p{
+    background-color: seagreen;
+
+}
+
+div > p{
+    background-color: red;
+    border: 10px solid lime;
+    margin-bottom: 300px;
+}
+
+p~ ul{
+    background-color: black;
+    color: white;
+
+}
