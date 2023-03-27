@@ -46,9 +46,32 @@
             height: 200px;
             border: 1px solid black;
 
+         }
+
+
+         
+        #relativo{
+            position: relative;
+            background-color: pink;
+            left: 250px;
+            width: 200%;
+            bottom: 250px;
+            height: 200px;
+            border: 1px solid black;
+
 
 
         }
+
+        #absoluto2{
+            position: absolute;
+            background-color: black;
+            left: 50px;
+            width: 30%;
+            height: 30px;
+          
+        }
+
     </style>
 </head>
 <body>
@@ -67,7 +90,9 @@
     <div id="fijo"> fixed </div>
     <div id="absoluto"> absolute</div>
     <div id="pegajoso"> sticky </div>
-    
+    <div id="relativo"> 
+        <div id="absoluto2"></div>    
+    </div>
     
 </body>
 </html>
