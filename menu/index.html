@@ -4,12 +4,14 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>MENU DE PIZZAS</title>
+   <title>Pingüino Emperador</title>
+   <link rel="stylesheet" href="style.css">
  <!-- BootStrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
  
  <!-- FontAwesome -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
  <style>
    i {
       color : blueviolet;
@@ -23,7 +25,7 @@
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
  <div class="container-fluid">
  <a class="navbar-brand" href="#">
- <i class="fa-solid fa-rocket"></i> PIZZA PLANETA
+ <i class="fa-solid fa-rocket"></i> Pingüino Emperador
  </a>
  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
  <span class="navbar-toggler-icon"></span>
@@ -31,23 +33,23 @@
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
  <li class="nav-item">
- <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> INICIO</a>
+ <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Inicio</a>
  </li>
  <li class="nav-item">
- <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> SUCURSALES</a>
+ <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Localización</a>
  </li>
  <li class="nav-item dropdown">
  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <i class="fa-solid fa-clipboard-list"></i> PLATILLOS
+ <i class="fa-solid fa-clipboard-list"></i> Estadísticas
  </a>
  <ul class="dropdown-menu">
- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pizza-slice"></i> PIZZAS</a></li>
+ <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pizza-slice"></i> Población</nav></a></li>
  
- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils"></i> PASTAS</a></li>
+ <li><a class="dropdown-item" href="#"><i class="fa-solid fa-utensils"></i> Hábitat </nav></a></li>
  
- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-burger"></i> HAMBURGUESAS</a></li>
+ <li><a class="dropdown-item" href="#"><i class="fa-solid fa-burger"></i> Rasgos </nav></a></li>
  
- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-group"></i> PAPAS</a></li>
+ <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-group"></i> Comportamiento </nav></a></li>
  </ul>
  </li>
  
@@ -58,5 +60,62 @@
  </nav>
  
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+ <div class="header">
+  <h1>Pingüino Emperador</h1>
+</div>
+
+</div>
+
+<!-- Galería -->
+<div class="container">
+  <div class="column">
+    <h2 class="h2">Esqueleto</h2>
+    <img
+      src="https://open3dmodel.com/wp-content/uploads/2019/04/20190419_5cb9dbeb089d7.jpg"
+      alt="pinguino 1" class="image" width="100%">
+      <table class="table">
+        <tr>
+          <th>Reino</th>
+          <th> Filo </th>
+          <th> Clase </th>
+          <th> Género </th>
+          <th>Familia</th>
+        </tr>
+        <tr>
+          <td>Animalia</td>
+          <td>Chordata</td>
+          <td>Ave</td>
+          <td>Aptenodytes</td>
+          <td>Spheniscidae</td>
+        </tr>
+      
+      </table>
+      <br><br>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/250px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg" width="100%" alt="Pinguino 5">
+  </div>
+  <div class="column video-container">
+    <video src="/menu/Pengu.mp4" width="560px" height="315px" autoplay controls allowfullscree loop></video>
+
+    <p>Los pingüinos emperador (Aptenodytes forsteri) son una especie icónica y majestuosa de pingüinos que habitan
+      en la región más fría de la Antártida. Son las aves más grandes entre todas las especies de pingüinos y son
+      conocidos por su elegante apariencia y su estilo de vida fascinante en uno de los entornos más extremos del
+      planeta.</p>
+  </div>
+  <div class="column">
+    <img
+      src="https://images.unsplash.com/photo-1638704957265-0817f29d9b6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fHBpbmclQzMlQkNpbm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      alt="pinguino 2" class="image" width="100%">
+    <img
+      src="https://images.unsplash.com/photo-1531010068968-648812d9529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHBpbmclQzMlQkNpbm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      alt="pinguino 3" class="image" width="100%">
+    <img
+      src="https://images.unsplash.com/photo-1517784665784-0251075fd9e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxwaW5nJUMzJUJDaW5vfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+      alt="pinguino 4" class="image" width="100%">
+  </div>
+
+</div>
+
 </body>
 </html>
