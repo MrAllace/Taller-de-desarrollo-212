@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    /* Esta propiedad te permite incluir el padding 
+  y border en el ancho y alto del elemento.*/
+}
+
+body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: white;
+}
+
+@font-face {
+    font-family: Tommy;
+    src: url(Tommy.otf);
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+    font-family: Tommy;
+    font-size: xx-large;
+    color: black;
+   
+}
+
+.row {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.video-container {
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+.image {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.video-container:hover,
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 3);
+}
+
+
+.h2 {
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    margin-top: 46px;
+    margin-right: 20px;
+
+}
+
+.p {
+    text-align: static;
+    font-size: large;
+    font-family: Mermaid;
+    color: white;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.table {
+    text-align: justify;
+    font-family: Mermaid;
+    background-color: grey ;
+    
+}
